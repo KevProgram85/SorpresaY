@@ -1,0 +1,52 @@
+/* Estilos para la cartita */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+/* Estilos para el título */
+h1 {
+    font-family: 'Playfair Display', serif; /* Letra elegante */
+    font-size: 2.5em;
+    color: #ff4d4d;
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.7);
+    margin-top: 20px;
+}
+.cartita {
+    background-color: #000;
+    border: 3px solid #ff4d4d;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.5);
+    font-family: 'Dancing Script', cursive; /* Letra especial */
+    font-size: 1.4em;
+    color: #ffff;
+    text-align: center;
+}
+
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* Botón de regreso */
+.regresar {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+    transition: 0.3s;
+}
+
+.regresar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 77, 77, 1);
+}
+

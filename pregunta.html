@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Te gustó?</title>
+    <link rel="stylesheet" href="pantalla.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="imagen_4.jpg" alt="Imagen bonita" class="imagen">
+        <h2>¿Quieres ser la mujer de mi vida y pasar toda la vida conmigo? </h2>
+
+        <div class="botones">
+            <button class="boton si" onclick="mostrarNotificacion()">Sí 💖</button>
+            <button class="boton no" onclick="moverBoton()">No ❌</button>
+        </div>
+    </div>
+
+    <div id="notificacion" class="notificacion oculto">
+        <p>¡Me haces el hombre más feliz del mundo! 💖✨. Te amo para siempre.</p>
+        <img src="gatitos.jpg" alt="Imagen romántica" class="imagen-notificacion">
+        <div class="boton-contenedor">
+            <button class="boton aceptar" onclick="irAPantallaSiguiente()">Aceptar</button>
+        </div>
+    </div>
+    
+    <script>
+        function mostrarNotificacion() {
+            document.getElementById('notificacion').classList.remove('oculto');
+        }
+
+        function moverBoton() {
+            let botonNo = document.querySelector('.no');
+            let nuevaX = Math.random() * (window.innerWidth - 100);
+            let nuevaY = Math.random() * (window.innerHeight - 50);
+
+            botonNo.style.position = "absolute";
+            botonNo.style.left = nuevaX + "px";
+            botonNo.style.top = nuevaY + "px";
+        }
+
+        function irAPantallaSiguiente() {
+            window.location.href = "galeria.html"; // Aquí puedes poner el nombre de la siguiente pantalla
+        }
+    </script>
+
+</body>
+</html>

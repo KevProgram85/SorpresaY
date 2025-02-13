@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    background-color: #000; /* Fondo oscuro */
+    color: #ff4d4d; /* Texto rojo brillante */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    padding-top: 50px;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+/* Imagen */
+.imagen {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.5);
+}
+
+/* Estilos para los botones */
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.boton {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+}
+
+/* Botón izquierdo */
+.izquierda {
+    background-color: #333;
+    color: #ff4d4d;
+}
+
+/* Botón derecho */
+.derecha {
+    background-color: #ff4d4d;
+    color: #111;
+}
+
+/* Efecto hover */
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 77, 77, 1);
+}

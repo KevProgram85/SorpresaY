@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    background: url('fondo2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Imagen superior */
+.imagen {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Pregunta */
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ff4d4d;
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.7);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Botones */
+.botones {
+    margin-top: 20px;
+}
+
+.boton {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.si {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no {
+    background-color: #ff4d4d;
+    color: white;
+    position: relative;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+
+/* Notificación */
+.notificacion {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 2px solid #ff4d4d;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.7);
+    text-align: center;
+    color: white;
+    z-index: 1000;
+}
+
+.notificacion p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.boton.aceptar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.boton.aceptar:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+.oculto {
+    display: none;
+}
+
+.imagen-notificacion {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.boton-contenedor {
+    text-align: center;
+    margin-top: 15px;
+}

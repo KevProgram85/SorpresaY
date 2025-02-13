@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff6f61;
+    margin-top: 30px;
+}
+
+.texto {
+    font-size: 1.3em;
+    color: #fff;
+    margin: 10px 0 30px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.boton {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.5);
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #ff6f61;
+    transform: scale(1.1);
+}
+
+.imagen-historia {
+    width: 80%;
+    max-width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
